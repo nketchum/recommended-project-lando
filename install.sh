@@ -1,7 +1,5 @@
 # Initialize the recipe.
-mkdir app \
-  && cd app \
-  && lando init \
+lando init \
   --source cwd \
   --recipe drupal10 \
   --webroot web \
